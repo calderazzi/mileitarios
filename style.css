@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
 }
+* {
+  margin: 0;
+  padding: 0;;
+}
 body {
-  background-color: #9696DA;
+  background-image: linear-gradient(90deg, rgb(117, 170, 219) 33%, white 33%, white 66.66%, rgb(117, 170, 219) 66.66%);
   text-align: center;
 }
 .body {
@@ -20,8 +24,8 @@ body {
 }
 .counter {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  right: 0;
+  bottom: 30px;
 }
 
 .menu {
@@ -126,7 +130,7 @@ animation: vuelta 4s;
   font-weight: bolder;
   position: absolute;
   right: 100px;
-  bottom: 40px;
+  bottom: 50px;
 }
 
 .galeria {
@@ -162,6 +166,7 @@ h3 a {
   position: absolute;
   top: 50px;
   left: 50px;
+  background-color: gray;
 }
 
 .videoContents, .fotosContents {
@@ -188,7 +193,8 @@ h3 a {
   bottom: 0px;
   margin: 0px 250px;
   z-index: 1;
-  color: white;
+  color: black;
+  background-color: #9696DA;
 }
 .footer-galeria {
   color: white;
@@ -198,7 +204,7 @@ h3 a {
   position: fixed;
   width: 40px;
 	height: 40px;
-	bottom: 30px;
+	bottom: 75px;
 	right: 10px;
 }
 
@@ -211,7 +217,7 @@ h3 a {
   margin-top: 30px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
   .red {
     margin-left: 350px;
   }
@@ -220,7 +226,7 @@ h3 a {
   }
   .milei2023 {
     font-size: 60px;
-    right: 50px;
+    right: 80px;
   }
 }
 
@@ -272,7 +278,15 @@ h3 a {
   }
   .milei {
     width: 200px;
-    left: 350px;
+    left: 330px;
+  }
+  @keyframes aparece {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 200px;
+    }
   }
   @keyframes aparece {
     from {
@@ -303,6 +317,9 @@ h3 a {
   .red {
     margin-left: 285px;
   }
+  .milei {
+    left: 250px;
+  }
 }
 @media only screen and (max-width: 680px) {
   .divisor {
@@ -316,9 +333,20 @@ h3 a {
   .foto1 {
     margin-top: 30px;
   }
+  .foto1 {
+    margin-top: 30px;
+  }
   .milei {
     width: 150px;
-    left: 20px;
+    left: 200px;
+  }
+  @keyframes aparece {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 150px;
+    }
   }
   @keyframes aparece {
     from {
@@ -330,6 +358,16 @@ h3 a {
   }
   h1 {
     font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .container {
+    margin-bottom: 120px;
+    margin-left: 200px;
   }
   h2 {
     font-size: 18px;
@@ -365,7 +403,7 @@ h3 a {
 
 @media only screen and (max-width: 630px) {
   .argentina {
-    top: 600px;
+    top: 630px;
   }
   .red {
     margin-left: 25px;
@@ -375,11 +413,16 @@ h3 a {
     width: 350px;
     margin-bottom: 660px;
   }
-
+  .milei {
+    left: 120px;
+  }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 475px) {
   .divisor {
     display: none;
+  }
+  .milei {
+    left: 5px;
   }
 }
