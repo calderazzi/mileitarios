@@ -2,10 +2,6 @@
   margin: 0;
   padding: 0;
 }
-* {
-  margin: 0;
-  padding: 0;;
-}
 body {
   background-image: linear-gradient(90deg, rgb(117, 170, 219) 33%, white 33%, white 66.66%, rgb(117, 170, 219) 66.66%);
   text-align: center;
