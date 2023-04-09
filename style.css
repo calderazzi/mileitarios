@@ -170,6 +170,11 @@ h3 a {
   color: blue;
 }
 
+h4 a {
+  text-decoration: none;
+  color: black;
+}
+
 .redes {
   background-color: rgb(205, 204, 204);
 }
