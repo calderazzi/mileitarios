@@ -136,11 +136,17 @@ animation: vuelta 4s;
   font-size: 25px;
 }
 .milei2023 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bolder;
   position: absolute;
-  right: 100px;
-  bottom: 50px;
+  right: 70px;
+  bottom: 220px;
+}
+
+.llora {
+  width: 400px;
+  right: 60px;
+  bottom: 40px;
 }
 
 .galeria {
@@ -244,8 +250,14 @@ h4 a {
     margin: 0 150px;
   }
   .milei2023 {
-    font-size: 60px;
-    right: 80px;
+    font-size: 35px;
+    right: 30px;
+    bottom: 200px;
+  }
+  .llora {
+    width: 320px;
+    right: 10px;
+    bottom: 65px;
   }
 }
 
@@ -269,7 +281,10 @@ h4 a {
     }
   }
   .milei2023 {
-    font-size: 50px;
+    font-size: 25px;
+  }
+  .llora {
+    width: 260px;
   }
   .quienes {
     margin: 10px 70px;
@@ -297,9 +312,6 @@ h4 a {
   .footer {
     margin: 0;
     font-size: 13px;
-  }
-  .milei2023 {
-    font-size: 40px;
   }
   .milei {
     width: 200px;
@@ -455,6 +467,14 @@ h4 a {
   #video {
     width: 245%;
   }
+  .milei2023 {
+    font-size: 20px;
+    bottom: 210px;
+  }
+  .llora {
+    width: 200px;
+    bottom: 115px;
+  }
 }
 
 @media only screen and (max-width: 475px) {
@@ -472,5 +492,18 @@ h4 a {
 @media only screen and (max-width: 370px) {
   #video {
     width: 410%;
+  }
+  .rugido {
+    font-size: 15px;
+    }
+  .milei2023 {
+    font-size: 17px;
+    bottom: 185px;
+    right: 15px;
+  }
+  .llora {
+    width: 150px;
+    bottom: 115px;
+    right: 4px;
   }
 }
