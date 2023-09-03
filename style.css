@@ -140,7 +140,7 @@ animation: vuelta 4s;
   font-weight: bolder;
   position: absolute;
   right: 70px;
-  bottom: 260px;
+  bottom: 300px;
 }
 
 .llora {
@@ -252,7 +252,7 @@ h4 a {
   .milei2023 {
     font-size: 35px;
     right: 30px;
-    bottom: 200px;
+    bottom: 230px;
   }
   .llora {
     width: 320px;
@@ -469,7 +469,7 @@ h4 a {
   }
   .milei2023 {
     font-size: 20px;
-    bottom: 210px;
+    bottom: 240px;
   }
   .llora {
     width: 200px;
@@ -498,7 +498,7 @@ h4 a {
     }
   .milei2023 {
     font-size: 17px;
-    bottom: 185px;
+    bottom: 220px;
     right: 15px;
   }
   .llora {
